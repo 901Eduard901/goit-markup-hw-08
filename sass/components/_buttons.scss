@@ -1,0 +1,28 @@
+.hero__button {
+    @extend %btn;
+  }
+
+.form__button {
+    @extend %btn;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left:  56px;
+    padding-right: 55px;
+  }
+
+.area-footer__button {
+    @extend %btn;
+    @include centeredFlex();
+    padding-left: 29px;
+    padding-right: 28px;
+  }
+
+.hero__button:hover,
+.hero__button:focus,
+.form__button:hover,
+.form__button:focus,
+.area-footer__button:hover,
+.area-footer__button:focus {
+    background-color: $contrast-btn-bgc;
+  }  

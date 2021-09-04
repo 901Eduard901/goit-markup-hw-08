@@ -1,0 +1,57 @@
+// Feature и description Особенности компании 
+
+.feature {
+    display: flex;   
+  }   
+
+.feature__box {
+    background-color: #F5F4FA; 
+    border-radius: 4px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+  }
+
+.feature__icon {
+    width: 70px;
+    height: 70px;
+  }
+
+.feature__description {
+    line-height: 1.71;    
+  }  
+
+@media screen and (max-width: 1199px) {
+  .feature {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: -15px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .feature__item {
+    flex-basis: calc((100% - 4 * 15px) / 2);
+    margin: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .feature {
+      display: block;
+      margin: auto;   
+  }   
+}
+
+@media screen and (max-width: 767px) {  
+  .feature__item:not(:last-child) {
+      margin-bottom: 30px;    
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .feature__item:not(:last-child) {
+      margin-right: 30px;    
+  }
+}

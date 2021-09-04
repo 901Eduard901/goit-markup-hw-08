@@ -1,0 +1,85 @@
+.hero__title {
+    margin-bottom: 30px;
+    color: $primary-white-color;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 694px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+@media screen and (max-width: 1199px) {  
+  .hero__title {
+    font-size: 26px;
+    line-height: 1.61;
+    width: auto; 
+  }  
+}
+
+.section__title {
+    margin-bottom: 50px;
+    color: $title-text-color;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+  }    
+
+@media screen and (max-width: 1199px) {  
+  .section__title {
+    margin-bottom: 30px;
+    font-size: 28px;
+    line-height: 1.17;
+  }  
+}
+
+.feature__title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: $title-text-color;
+    font-weight: 700;
+  }  
+
+@media screen and (max-width: 767px) {  
+  .feature__title {
+    text-align: center;
+  }  
+}
+
+.team__title {
+    margin-bottom: 10px;
+    color: $title-text-color;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18; 
+  }  
+
+.second-box-footer__title,
+.third-box-footer__title {
+    color: $primary-white-color;
+    font-weight: 700;
+    margin-bottom: 20px;
+    // text-align: center;
+  } 
+
+.form__title {
+    margin-bottom: 12px;
+    color: $title-text-color;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+  }  
+
+.project__title {
+    color: $title-text-color;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    margin-bottom: 4px; 
+   }

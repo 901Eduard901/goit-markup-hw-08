@@ -1,0 +1,25 @@
+// Цвета
+
+//  цвет основного текста #212121 
+//  вторичный цвет текста #757575
+//  третий цвет текста rgba(255, 255, 255, 0.6)
+//  акцент #2196F3
+//  белый #FFFFFF
+//  второй цвет фона #2F303A
+//  цвет фона при ховере фокусе кнопки #188CE8
+
+$title-text-color:    #212121;  
+$primary-text-color:  #757575;
+$third-text-color:    rgba(255, 255, 255, 0.6);
+$accent-color:        #2196F3;
+$primary-white-color: #ffffff;
+$second-bgc:          #2F303A;
+$contrast-btn-bgc:    #188CE8;
+
+// Шрифты
+
+// начальный шрифт
+// вторичный шрифт
+
+$primary-font: Roboto, sans-serif;
+$secondery-font: Raleway, sans-serif;

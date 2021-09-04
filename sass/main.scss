@@ -1,0 +1,27 @@
+// Base
+@import 'base/normalize';
+
+// Utils
+@import 'utils/variables/var';
+@import 'utils/vs-hidden';
+@import 'utils/placeholders';
+@import 'utils/mixins';
+
+// Components
+@import 'components/logo';
+@import 'components/titles';
+@import 'components/buttons';
+
+// Layout
+@import 'layout/header';
+@import 'layout/hero';
+@import 'layout/feature';
+@import 'layout/work';
+@import 'layout/team-job';
+@import 'layout/clients';
+@import 'layout/footer';
+@import 'layout/modal';
+@import 'layout/mobile-menu';
+
+// Pages
+@import 'pages/gallery-card';

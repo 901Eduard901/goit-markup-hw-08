@@ -1,0 +1,39 @@
+// Чем мы занимаемся
+
+.section--no-paddingtop {
+  padding-top: 0px;
+
+  @media (max-width: 1199px) {
+    display: none;
+  }
+}
+
+.work {
+  display: flex;
+  position: relative;
+}
+
+.work__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+// .work__box {
+//     position: relative;
+//   }
+
+.work__description {
+  position: absolute;
+  // width: 100%;
+  width: 370px;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+  bottom: 0;
+  color: $primary-white-color;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}

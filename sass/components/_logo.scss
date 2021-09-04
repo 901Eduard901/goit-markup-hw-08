@@ -1,0 +1,8 @@
+.logo {
+    @extend %default-logo;
+  }
+
+.logo:hover, 
+.span {
+    color: $accent-color;
+  }

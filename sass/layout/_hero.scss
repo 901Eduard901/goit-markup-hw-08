@@ -1,20 +1,70 @@
-// Hero 
+// Hero
 
 .hero {
-    padding: 200px 0;
-    text-align: center;
-    background: $second-bgc;
-    margin-left: auto;
-    margin-right: auto;
+  padding: 200px 0;
+  text-align: center;
+  background: $second-bgc;
+  margin-left: auto;
+  margin-right: auto;
 
-    max-width: 1600px;
-    height: 600px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  max-width: 1600px;
+  max-height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/mob_x1_hero.jpg);
+}
+
+@media (min-resolution: 2dppx) {
+  .hero {
     background-image: linear-gradient(
-    rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)
-    ), 
-    url(../images/hero_img.jpg);
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/mob_x2_hero.jpg);
   }
+}
+
+@media (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/tab_x1_hero.jpg);
+  }
+
+  @media (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/tab_x2_hero.jpg);
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/desk_x1_hero.jpg);
+  }
+
+  @media (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url(../images/desk_x2_hero.jpg);
+    }
+  }
+}
